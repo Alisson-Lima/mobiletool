@@ -4,24 +4,29 @@ import "./style.css"
 export function TextElement(){ 
     const [titleSize, settitleSize] = useState(40)
     const [text, settext] = useState("Lorem ipsum dolor sit amet.")
+    const [spacing, setspacing] = useState()
     
     if(titleSize < 8){
         settitleSize(8)
     }
     if(text == ""){
-        settext("Lorem ipsum dolor sit amet")
+        settext("Lorem ipsum dolor sit amet.")
     }
 
     return (
     <div className="textElement">
-        <Title lv="h1" size={titleSize} text={text} class="text"/>
+        <Title type="h1" size={titleSize} text={text} class="text" LS={spacing}/>
         <label htmlFor="inputText">
             Text content:
             <input type="text" name="inputText" onChange={(e) => settext(e.target.value)} placeholder="type something..."/>
         </label>
         <label htmlFor="inputSize">
             Text size:
-            <input type="number" name="inputSize" onChange={(e) => settitleSize(e.target.value)} placeholder="40px"/>
+            <input type="number" name="inputSize" min={8} onChange={(e) => settitleSize(e.target.value)} placeholder="40px"/>
+        </label>
+        <label htmlFor="InputLetterSpacing">
+            Letter spacing:
+            <input type="number" name="InputLetterSpacing" placeholder="default" onChange={(e) => setspacing(e.target.value)} />
         </label>
     </div>
     )

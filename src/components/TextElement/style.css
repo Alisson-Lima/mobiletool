@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+.textElement{
+    margin-bottom: 80px;
+}
+
 .textElement .text{
     margin-bottom: 25px;
+    transition: .5s;
 }
 
 .textElement label{
