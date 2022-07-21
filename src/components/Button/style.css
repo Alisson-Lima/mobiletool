@@ -1,6 +1,7 @@
 button{
     width: 100%;
     height: 70px;
+    max-width: 300px;
     border: transparent;
     background: rgb(14, 180, 202);
     border-radius: 10px;
