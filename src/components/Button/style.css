@@ -9,6 +9,7 @@ button{
     color: white;
     font-size: 20px;
     text-transform: capitalize;
+    margin-bottom: 25px;
 }
 
 button:hover{

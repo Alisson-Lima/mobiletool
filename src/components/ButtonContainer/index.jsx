@@ -1,19 +1,11 @@
 import { useState } from "react"
 import { Button } from "../Button/"
+import './style.css'
 export function ButtonContainer(){
     const [width, setwidth] = useState()
     const [height, setheight] = useState()
     const [border, setborder] = useState()
     const [borderRadius, setborderRadius] = useState()
-    // if(width == " "){
-    //     setwidth(100+'vw') 
-    // }else if(height == ''){
-    //     setheight(70+'px') 
-    // }else if(border){
-    //     setborder('none')
-    // }else if(borderRadius = ''){
-    //     setborderRadius(15+'px') 
-    // }
 
     return(
         <div className="buttons-container">
