@@ -1,0 +1,18 @@
+.buttons-container{
+    margin-top: 50px;
+}
+
+.buttons-container label{
+    display: block;
+    margin-bottom: 20px;
+}
+.buttons-container label input{
+    width: 100px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(240, 240, 240);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 15px;
+}
