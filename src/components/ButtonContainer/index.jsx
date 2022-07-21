@@ -2,10 +2,10 @@ import { useState } from "react"
 import { Button } from "../Button/"
 import './style.css'
 export function ButtonContainer(){
-    const [width, setwidth] = useState()
-    const [height, setheight] = useState()
-    const [border, setborder] = useState()
-    const [borderRadius, setborderRadius] = useState()
+    const [width, setwidth] = useState("")
+    const [height, setheight] = useState("")
+    const [border, setborder] = useState("")
+    const [borderRadius, setborderRadius] = useState("")
 
     return(
         <div className="buttons-container">
