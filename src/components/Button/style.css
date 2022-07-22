@@ -1,4 +1,4 @@
-button{
+.button-modify{
     width: 100%;
     height: 70px;
     max-width: 300px;
@@ -13,7 +13,7 @@ button{
     margin-bottom: 25px;
 }
 
-button:hover{
+.button-modify:hover{
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.171);
     background: rgb(20, 203, 228);

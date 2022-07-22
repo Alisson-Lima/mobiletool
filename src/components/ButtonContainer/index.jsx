@@ -9,7 +9,7 @@ export function ButtonContainer(){
 
     return(
         <div className="buttons-container">
-            <Button value="Normal size" wSize={width} hSize={height} border={border} borderR={borderRadius}/>
+            <Button class="button-modify" value="Normal size" wSize={width} hSize={height} border={border} borderR={borderRadius}/>
             <label htmlFor="width">
                 Width:
                 <input type="number" name="width" placeholder="px" onChange={(e) => setwidth(e.target.value)}/>

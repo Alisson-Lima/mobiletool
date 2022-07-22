@@ -3,3 +3,12 @@
 *{
     font-family: 'Montserrat';
 }
+
+.dark-mode{
+    background: rgb(24, 24, 24);
+    color: white;
+}
+
+body{
+    padding-top: 50px;
+}
